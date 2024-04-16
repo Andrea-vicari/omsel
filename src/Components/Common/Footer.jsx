@@ -19,10 +19,9 @@ function Footer() {
     <footer id="main-footer" className="bg-primary light-typo">
         <div className="container text-center">
             <ul className="social-links">
-                <li><a href="#link"><i className="fab fa-github fa-fw"></i></a></li>
-                <li><a href="#link"><i className="fab fa-facebook fa-fw"></i></a></li>
-                <li><a href="#link"><i className="fab fa-codepen fa-fw"></i></a></li>
-                <li><a href="#link"><i className="fab fa-linkedin fa-fw"></i></a></li>
+                <li><a href="#link"><i className="bi bi-github fa-fw"></i></a></li>
+                <li><a href="#link"><i className="bi bi-facebook fa-fw"></i></a></li>
+                <li><a href="#link"><i className="bi bi-linkedin fa-fw"></i></a></li>
             </ul>
             <hr></hr>
             <p className='text-black'>&copy;2024 Proudly coded using React and ready to showcase your next projects</p>
@@ -30,7 +29,7 @@ function Footer() {
 
         </div>
         <button id="myBtn" onClick={topFunction} className='btn btn-sm btn-outline-secondary'>
-          <i className='fa fa-arrow-up'></i>
+        <i className='bi bi-arrow-up-square-fill'></i>
         </button>
     </footer>
     </React.Fragment>

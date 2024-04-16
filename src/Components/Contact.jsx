@@ -104,7 +104,7 @@ function Contact() {
 
 						<div className="col-sm-4 text-center contact-item">
 
-							<a className="icon" href="http://goo.gl/maps/0m7WQ" target="_blank"><i className="fa fa-map-marker fa-fw text-primary"></i></a>
+							<a className="icon" href="http://goo.gl/maps/0m7WQ" target="_blank"><i className="bi bi-geo-fill fa-fw text-primary"></i></a>
 							<h2>Our Location</h2>
 							<p>123 Your City, ST, 12345</p>
 
@@ -112,7 +112,7 @@ function Contact() {
 
 						<div className="col-sm-4 text-center contact-item">
 
-							<a className="icon" href="mailto:mail@example.com"><i className="fa fa-envelope text-primary"></i></a>
+							<a className="icon" href="mailto:mail@example.com"><i className="bi bi-envelope text-primary"></i></a>
 							<h2>Send a mail</h2>
 							<p>mail@example.com</p>
 
@@ -120,7 +120,7 @@ function Contact() {
 
 						<div className="col-sm-4 text-center contact-item mb-4">
 
-							<a className="icon" href="telto:01 234-56789"><i className="fa fa-phone fa-fw text-primary"></i></a>
+							<a className="icon" href="telto:01 234-56789"><i className="bi bi-phone fa-fw text-primary"></i></a>
 							<h2>Call us</h2>
 							<p>+01 234-56789</p>
 
@@ -140,7 +140,7 @@ function Contact() {
 								<div className="controls">
 
 									<input id="contact-name" name="user_name" onChange={handleChange} placeholder="Your name" className="form-control requiredField label_better" type="text" data-error-empty="Please enter your name" />
-									<i className="fa fa-user text-primary"></i>
+									<i className="bi bi-person text-primary"></i>
 									{errors.username && <span className='mail_errors text-primary'>{errors.username}</span>}
 
 								</div>
@@ -151,7 +151,7 @@ function Contact() {
 								<label className="control-label" htmlFor="contact-mail">Email</label>
 								<div className=" controls">
 									<input id="contact-mail" name="user_email" onChange={handleChange} placeholder="Your email" className="form-control requiredField label_better" />
-									<i className="fa fa-envelope text-primary"></i>
+									<i className="bi bi-envelope text-primary"></i>
 									{errors.email && <span className='mail_errors text-primary'>{errors.email}</span>}
 								</div>
 							</div>
@@ -160,7 +160,7 @@ function Contact() {
 								<label className="control-label" htmlFor="contact-message">Message</label>
 								<div className="controls">
 									<textarea id="contact-message" name="message" onChange={handleChange} placeholder="Your message" className="form-control requiredField label_better" rows="6"></textarea>
-									<i className="fa fa-comment text-primary"></i>
+									<i className="bi bi-chat text-primary"></i>
 									{errors.message && <span className='mail_errors text-primary'>{errors.message}</span>}
 								</div>
 

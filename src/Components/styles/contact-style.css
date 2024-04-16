@@ -111,7 +111,7 @@
     position:relative;
 }
 
-#contact-form .form-group [class*=fa] {
+#contact-form .form-group [class*=bi] {
     display:block;
     width:64px;
     position:absolute;

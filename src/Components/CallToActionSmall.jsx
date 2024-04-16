@@ -14,8 +14,8 @@ function CallToActionSmall() {
                     </div>
                     <div className="col-md-3 mt-3">
                         <p className="text-center">
-                            <a className="btn btn-outline-dark btn-lg p-3" href={Resume} target='_blank'>
-                                <i className="fs-3 fa fa-download"></i> Download
+                            <a className="btn btn-outline-dark btn-lg p-2" href={Resume} target='_blank'>
+                                <i className="fs-3 bi bi-download"></i> Download
                             </a>
                         </p>
                     </div>

@@ -30,26 +30,26 @@ function Bio() {
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Name:</strong> <span>Your Name
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Name:</strong> <span>Your Name
                                             </span></li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Website:</strong>
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Website:</strong>
                                         <span>www.example.com</span>
                                     </li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Phone:</strong> <span>+123 456
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Phone:</strong> <span>+123 456
                                             7890</span></li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>City:</strong> <span>Northbrook,
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>City:</strong> <span>Northbrook,
                                             IL</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Age:</strong> <span>30</span></li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Degree:</strong> <span>Master</span>
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Age:</strong> <span>30</span></li>
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Degree:</strong> <span>Master</span>
                                     </li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Email:</strong>
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Email:</strong>
                                         <span>yourmail@example.com</span>
                                     </li>
-                                    <li><i className="fa fa-chevron-right text-primary"></i> <strong>Freelance:</strong>
+                                    <li><i className="bi bi-chevron-right text-primary"></i> <strong>Freelance:</strong>
                                         <span>Available</span>
                                     </li>
                                 </ul>
@@ -58,27 +58,7 @@ function Bio() {
 
                         <hr></hr>
                         <div className="mt-0">
-                            <p className='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odit, dolorem dicta commodi doloribus excepturi</p>
-                            <div className="row g-2 row-cols-1 row-cols-lg-3 mt-0">
-                                <div className="col d-flex align-items-start">
-                                    <div className="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-2">
-                                    <i className='fab fa-node fs-1 text-body-emphasis bg-body-secondary mx-2'></i>
-                                    <h4 className={"fs-5"+ " " + textType}>  Feature </h4>
-                                    </div>
-                                </div>
-                                <div className="col d-flex align-items-start">
-                                    <div className="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-2">
-                                    <i className='fab fa-css3 fs-1 text-body-emphasis bg-body-secondary mx-2'></i>
-                                    <h4 className={"fs-5"+ " " + textType}>  Feature</h4>
-                                    </div>
-                                </div>
-                                <div className="col d-flex align-items-start">
-                                    <div className="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-2">
-                                    <i className='fab fa-php fs-1 text-body-emphasis bg-body-secondary mx-2'></i>
-                                    <h4 className={"fs-5"+ " " + textType}>  Feature</h4>
-                                    </div>
-                                </div>
-                            </div>
+                            <p className='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odit, dolorem dicta commodi doloribus excepturi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur odit, dolorem dicta commodi doloribus excepturi.</p>
                         </div>
                     </div>
                 </div>
