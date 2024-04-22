@@ -39,7 +39,7 @@ function Footer() {
 
 
         </div>
-        <button id="myBtn" onClick={scrollToTop} className='btn btn-sm btn-outline-secondary'>
+        <button id="myBtn" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}} className='btn btn-sm btn-outline-secondary'>
         <i className='bi bi-arrow-up-square-fill'></i>
         </button>
     </footer>
